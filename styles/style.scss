@@ -1,0 +1,86 @@
+// Background #7C7F77 / #595758
+html,body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    font-family: "Bree Serif", serif;
+    font-size: 16px;
+    background-color: #585954;
+}
+
+header{
+    box-shadow: 5px 5px 5px 2px;
+
+    width: 90%;
+    margin:1em auto 1em auto; //center
+    text-align: center;
+    p{
+        font-size: 1.563em;
+        
+
+    }
+    h1{
+        font-size: 1.953em;
+                
+    }
+
+}
+img{
+    width:100vw;
+}
+
+
+
+
+//TIMELINE
+.timeline{
+    padding-top: .7em;
+    margin:10%;
+
+    box-shadow: 5px 5px 5px 2px;
+    h2{
+        text-align: center;
+    }
+    p{
+        margin:0;
+    }
+    p:first-child{
+        padding:1em;
+        // border-right: 1px solid black;
+    }
+    
+    &__item{
+        border-top: 1px solid black;
+        align-items: center;
+        size: 1.563em;
+        display:flex;
+        flex-direction: row;
+    }
+}
+
+//Biography
+.biography{
+    padding-top: .7em;
+    margin:10%;
+
+    box-shadow: 5px 5px 5px 2px;
+    h3{
+        text-align: center;
+    }
+    p{
+        margin:0;
+    }
+    p:first-child{
+        padding:1em;
+        // border-right: 1px solid black;
+    }
+    
+    &__item{
+        border-top: 1px solid black;
+        align-items: center;
+        size: 1.563em;
+        display:flex;
+        flex-direction: row;
+        
+    }
+}

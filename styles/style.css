@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+  background-color: #585954;
+}
+
+header {
+  -webkit-box-shadow: 5px 5px 5px 2px;
+          box-shadow: 5px 5px 5px 2px;
+  width: 90%;
+  margin: 1em auto 1em auto;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.563em;
+}
+
+header h1 {
+  font-size: 1.953em;
+}
+
+img {
+  width: 100vw;
+}
+
+.timeline {
+  padding-top: .7em;
+  margin: 10%;
+  -webkit-box-shadow: 5px 5px 5px 2px;
+          box-shadow: 5px 5px 5px 2px;
+}
+
+.timeline h2 {
+  text-align: center;
+}
+
+.timeline p {
+  margin: 0;
+}
+
+.timeline p:first-child {
+  padding: 1em;
+}
+
+.timeline__item {
+  border-top: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  size: 1.563em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.biography {
+  padding-top: .7em;
+  margin: 10%;
+  -webkit-box-shadow: 5px 5px 5px 2px;
+          box-shadow: 5px 5px 5px 2px;
+}
+
+.biography h3 {
+  text-align: center;
+}
+
+.biography p {
+  margin: 0;
+}
+
+.biography p:first-child {
+  padding: 1em;
+}
+
+.biography__item {
+  border-top: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  size: 1.563em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */
