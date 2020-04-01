@@ -1,5 +1,6 @@
 // Background #7C7F77 / #595758
 @import "mixinMedia";
+@import "fontsize";
 
 html,body{
     margin:0;
@@ -15,18 +16,20 @@ header{
     width: 90%;
     margin:1em auto 1em auto; //center
     text-align: center;
+    padding:5px 0;
     p{
-        font-size: 1.563em;
+        // font-size: 1.563em;
+        @include fluid-type(400px, 1200px, 20px, 30px);
     }
     h1{
         font-size: 1.953em;
+        @include fluid-type(400px, 1200px, 40px, 60px);
                 
     }
 }
 img{
     width:100vw;
 }
-
 
 
 //TIMELINE------------------------------------------------------
@@ -79,10 +82,13 @@ img{
     }
 
 
-
     h3{
         text-align: center;
-        // padding-top: 1em;
+        padding-top: 1em;
+
+        @include display(){
+            padding-top:0;
+        }
     }
     p{
         margin:0;
