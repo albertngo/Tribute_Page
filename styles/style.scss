@@ -28,14 +28,28 @@ img{
 }
 
 
-//TIMELINE
+
+//TIMELINE------------------------------------------------------
+
 .timeline{
     margin: 0 10%;
     box-shadow: 5px 5px 5px 2px;
+    
+    @include display(){
+        margin-top: 3em;
+        margin-right:0;
+        
+    }
 
     h2{
         text-align: center;
         padding-top: 1em;
+
+        @include display(){
+            padding-top: 0;
+            
+        }
+        
     }
     p{
         margin:0;
@@ -55,13 +69,20 @@ img{
 }
 
 
-//Biography
+//Biography------------------------------------------------------
 .biography{
     margin: 3em 10%;
     box-shadow: 5px 5px 5px 2px;
+
+    @include display(){
+        height:min-content;
+    }
+
+
+
     h3{
         text-align: center;
-        padding-top: 1em;
+        // padding-top: 1em;
     }
     p{
         margin:0;
@@ -79,4 +100,16 @@ img{
             padding-left: 1.3em;
         }
     }
+}
+
+
+@media (min-width:750px){
+
+    main{
+
+        margin-bottom: 3em;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }

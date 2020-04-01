@@ -33,9 +33,22 @@ img {
           box-shadow: 5px 5px 5px 2px;
 }
 
+@media (min-width: 750px) {
+  .timeline {
+    margin-top: 3em;
+    margin-right: 0;
+  }
+}
+
 .timeline h2 {
   text-align: center;
   padding-top: 1em;
+}
+
+@media (min-width: 750px) {
+  .timeline h2 {
+    padding-top: 0;
+  }
 }
 
 .timeline p {
@@ -67,9 +80,16 @@ img {
           box-shadow: 5px 5px 5px 2px;
 }
 
+@media (min-width: 750px) {
+  .biography {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+}
+
 .biography h3 {
   text-align: center;
-  padding-top: 1em;
 }
 
 .biography p {
@@ -90,5 +110,15 @@ img {
 
 .biography__item--desc {
   padding-left: 1.3em;
+}
+
+@media (min-width: 750px) {
+  main {
+    margin-bottom: 3em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
