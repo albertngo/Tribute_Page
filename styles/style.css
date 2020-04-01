@@ -28,22 +28,18 @@ img {
 }
 
 .timeline {
-  padding-top: .7em;
-  margin: 10%;
+  margin: 0 10%;
   -webkit-box-shadow: 5px 5px 5px 2px;
           box-shadow: 5px 5px 5px 2px;
 }
 
 .timeline h2 {
   text-align: center;
+  padding-top: 1em;
 }
 
 .timeline p {
   margin: 0;
-}
-
-.timeline p:first-child {
-  padding: 1em;
 }
 
 .timeline__item {
@@ -51,7 +47,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  size: 1.563em;
+  padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,23 +57,23 @@ img {
           flex-direction: row;
 }
 
+.timeline__item--desc {
+  padding-left: 1em;
+}
+
 .biography {
-  padding-top: .7em;
-  margin: 10%;
+  margin: 3em 10%;
   -webkit-box-shadow: 5px 5px 5px 2px;
           box-shadow: 5px 5px 5px 2px;
 }
 
 .biography h3 {
   text-align: center;
+  padding-top: 1em;
 }
 
 .biography p {
   margin: 0;
-}
-
-.biography p:first-child {
-  padding: 1em;
 }
 
 .biography__item {
@@ -85,13 +81,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  size: 1.563em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 1fr;
+      grid-template-columns: 20% 1fr;
+  padding: 1em;
+}
+
+.biography__item--desc {
+  padding-left: 1.3em;
 }
 /*# sourceMappingURL=style.css.map */
